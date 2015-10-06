@@ -11,7 +11,7 @@
 
 ## Motivation
 
-"Control flow" refers to the way our computers move through a program's code.   Understanding control flow allows us to trace the flow of a program based on its code. This skill is essential for programming in every language and paradigm.  In particular, conditionals and loops are fundamental to understanding modern programming languages.
+"Control flow" refers to the way our computers move through a program's code.   Understanding control flow allows us to trace the flow of a program based on its code. This skill is essential for programming in every language and paradigm.  In particular, **conditionals** and **loops** are fundamental to understanding modern programming languages.
 
 ## Boolean Logic
 
@@ -39,8 +39,6 @@ typeof(false)   // boolean
 | `===` | `==` | `!==` | `!=` | `>` | `<` | `>=` | `<=` |
 
 ## Conditinals
-
-
 
 ![commuter flow chart](https://camo.githubusercontent.com/f545891799690188cd2d25b1d06687af66627ab1/687474703a2f2f63646e2e746865626f6c646974616c69632e636f6d2f7061706572636c69702f68746d6c5f696d616765732f33353130382f696d616765732f6f726967696e616c2f77696c6c2d796f752d62652d6c6174655f66696e616c2e706e67)
 
@@ -211,7 +209,7 @@ if ( badThing ) {
 
 ## Loops
 
-Whenever we want to repeat something in code, we use a loop.  We can think of every loop as three parts: initial setup, continue condition(s), and update expression(s).
+Whenever we want to repeat something in code, we use a loop.  We can think of every loop as three parts: initial setup, continue condition, and update expression(s).
 
 
 ### `while` loops
@@ -236,7 +234,7 @@ while (minutesBeforeWork > 30) {               // continue condition: leave enou
 For loops allow the setup, continue condition, and update expression inside the for loop parentheses. 
 
 ```js
-for (var count = 1; count <= 3; count = count+1){
+for (var count = 1; count <= 3; count++){
   console.log(count);
 }
 console.log("Go Team!");
@@ -248,7 +246,7 @@ For loops for arrays usually use a counter variable to move through the indices 
 ```js
 var friends = ["Bill", "Nicki", "Kelly"]
 for (var i = 0; i < m.length; i++) {
-  console.log(m[i] + " is a nice person")
+  console.log(m[i] + " is a nice person");
 }
 
 ```
